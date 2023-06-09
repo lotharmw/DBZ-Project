@@ -526,6 +526,10 @@ video {
   margin: 0.75rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -552,6 +556,14 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .border {
@@ -586,10 +598,9 @@ video {
   font-style: italic;
 }
 
-/* div{
-    border:1px black solid; 
-    
-} */
+div{
+  border:1px black solid;
+}
 
 @font-face {
   font-family: "Chewy";
@@ -602,7 +613,29 @@ video {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:flex {
+    display: flex;
+  }
+
   .max-sm\:flex-col {
     flex-direction: column;
+  }
+
+  .max-sm\:overflow-auto {
+    overflow: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:min-w-full {
+    min-width: 100%;
+  }
+
+  .sm\:overflow-auto {
+    overflow: auto;
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden;
   }
 }

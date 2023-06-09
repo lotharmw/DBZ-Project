@@ -4,10 +4,11 @@
 
 
 
-/* div{
+div{
     border:1px black solid; 
     
-} */
+}
+/* font of breeds menu and character's names */
 @font-face {
     font-family: "Chewy";
     src: url("./Chewy/Chewy-Regular.ttf");
