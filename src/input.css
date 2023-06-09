@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* div{
+    border:1px black solid; 
+    
+} */
+@font-face {
+    font-family: "Chewy";
+    src: url("./Chewy/Chewy-Regular.ttf");
+    
+    }
+.chewy{
+    font-family: "Chewy";
+}
