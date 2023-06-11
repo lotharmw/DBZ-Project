@@ -25,10 +25,10 @@
         <!-- Button for breeds start -->
         <!-- <form action="" class="breedslist"> -->
             <label for="" class="italic self-center">BREEDS</label>
-            <button class=" oblic chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate">HUMAN</button>
-            <button class=" oblic chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate">SAYAIN</button>
-            <button class="oblic chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate">NAMEK</button>
-            <button class="oblic chewy border-orange-500 border m-3 px-3 bg-orange-300 block truncate">FRIEZA</button>
+            <button class=" btn chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate" id="btn-human" onclick="slide('human')">HUMAN</button>
+            <button class=" btn chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate" id="btn-human"onclick="slide('sayain')" >SAYAIN</button>
+            <button class="btn chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate"id="btn-human"onclick="slide('namek')">NAMEK</button>
+            <button class="btn chewy border-orange-500 border m-3 px-3 bg-orange-300 block truncate"id="btn-human"onclick="slide('frieza')">FRIEZA</button>
         <!-- </form> -->
        <!-- Button for breeds end -->
 
@@ -57,7 +57,7 @@
                 <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
             </div>
       </div>
-      <div id="sayain" class="flex place-content-evenly  perso  ">
+      <div id="sayain" class="flex place-content-evenly  perso  hidden">
         <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative">
             <h3 class="">GOKU</h3><img src="./img content-2/goku.png" alt="Goku" class="pics">
             <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
@@ -69,7 +69,7 @@
             <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
         </div>
   </div>
-  <div id="namek" class="flex place-content-evenly  perso  ">
+  <div id="namek" class="flex place-content-evenly  perso hidden ">
     <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">PICOLO</h3><img src="./img content-2/picolo.png" alt="Picolo" class="pics">
         <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
     </div>
@@ -80,7 +80,7 @@
         <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
     </div>
 </div>
-<div id="frieza" class="flex place-content-evenly  perso  ">
+<div id="frieza" class="flex place-content-evenly  perso hidden ">
     <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">FRIEZA</h3><img src="./img content-2/frieza.png" alt="Frieza" class="pics">
         <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
     </div>
@@ -99,6 +99,6 @@
 </div>
 <!-- content 2 end -->
 
-    
+    <script src="scripts.js"></script>
 </body>
 </html>
