@@ -522,6 +522,30 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
@@ -534,24 +558,24 @@ video {
   display: flex;
 }
 
-.h-72 {
-  height: 18rem;
+.hidden {
+  display: none;
 }
 
 .w-4 {
   width: 1rem;
 }
 
-.w-48 {
-  width: 12rem;
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .flex-col {
   flex-direction: column;
 }
 
-.justify-between {
-  justify-content: space-between;
+.place-content-evenly {
+  place-content: space-evenly;
 }
 
 .self-center {
@@ -562,8 +586,10 @@ video {
   overflow: auto;
 }
 
-.overflow-hidden {
+.truncate {
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .border {
@@ -589,6 +615,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -598,9 +628,12 @@ video {
   font-style: italic;
 }
 
-div{
-  border:1px black solid;
-}
+/* div{
+    border:1px orange solid; 
+   
+  } */
+
+/* font of breeds menu and character's names */
 
 @font-face {
   font-family: "Chewy";
@@ -612,30 +645,56 @@ div{
   font-family: "Chewy";
 }
 
-@media not all and (min-width: 640px) {
-  .max-sm\:flex {
-    display: flex;
-  }
-
-  .max-sm\:flex-col {
-    flex-direction: column;
-  }
-
-  .max-sm\:overflow-auto {
-    overflow: auto;
-  }
+.para{
+  max-width: 1000px;
+  max-height: 1600px;
 }
 
-@media (min-width: 640px) {
-  .sm\:min-w-full {
-    min-width: 100%;
-  }
+.pics{
+  /* min-height: 100px; */
+  width:100%;
+  height:auto;
+  max-width: 200px;
+}
 
-  .sm\:overflow-auto {
-    overflow: auto;
-  }
+.cad:hover .comment{
+  display: block !important;
+  transition: all 800ms;
+}
 
-  .sm\:overflow-hidden {
-    overflow: hidden;
+.cad:before{
+  background-color: rgb(223, 190, 84);
+  border:1px orange solid;
+}
+
+.cad{
+  padding:30px;
+}
+
+.cad h3{
+  padding-left:10px;
+}
+
+.oblic:before{
+  content:'';
+  position:absolute;
+  margin-top:-30px;
+  margin-right:0px;
+  margin-left:-32px;
+  width:100%;
+  height:100%;
+  transform-origin:100% 100%;
+  transform:skewX(-5deg);
+  z-index:-1;
+}
+
+.comment:before{
+  background-color: rgb(248 250 252 );
+  margin-bottom:100px;
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:flex-col {
+    flex-direction: column;
   }
 }

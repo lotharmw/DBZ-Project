@@ -4,10 +4,12 @@
 
 
 
-div{
-    border:1px black solid; 
+/* div{
+    border:1px orange solid; 
+   
+  } */
     
-}
+
 /* font of breeds menu and character's names */
 @font-face {
     font-family: "Chewy";
@@ -16,4 +18,65 @@ div{
     }
 .chewy{
     font-family: "Chewy";
+}
+
+.para{
+    max-width: 1000px;
+    max-height: 1600px;
+    
+
+    
+}
+.pics{
+    /* min-height: 100px; */
+    width:100%;
+    height:auto;
+    max-width: 200px;
+}
+.cad:hover .comment{
+    display: block !important;
+    transition: all 800ms;
+}
+
+ .cad:before{
+  
+    background-color: rgb(223, 190, 84);
+
+  
+    border:1px orange solid;
+    
+ }
+    
+.cad{
+    padding:30px;
+   
+}
+.cad h3{
+    padding-left:10px;
+}
+.oblic:before{
+    content:'';
+    position:absolute;
+    margin-top:-30px; margin-right:0px;
+    margin-left:-32px;
+    width:100%; height:100%;
+    
+
+    z-index:-1;
+   
+    
+
+    -webkit-transform-origin:100% 100%;
+    -ms-transform-origin:100% 100%;
+    transform-origin:100% 100%;
+
+    -webkit-transform:skewX(-10deg);
+    -ms-transform:skewX(-10deg);
+    transform:skewX(-5deg);
+    z-index:-1;
+}
+.comment:before{
+    background-color: rgb(248 250 252 );
+    margin-bottom:100px;
+
 }
