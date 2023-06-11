@@ -8,11 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="w-4 p-10 bg-yellow-400">jtdzt</h1>
+    
 
     <!-- content-2 start -->
 
-<div class="content2 flex justify-between  max-sm:flex-col p-10">
+<div class="content2 flex   overflow-auto min-w-4   max-sm:flex-col p-10">
 
 
 
@@ -25,10 +25,10 @@
         <!-- Button for breeds start -->
         <!-- <form action="" class="breedslist"> -->
             <label for="" class="italic self-center">BREEDS</label>
-            <button class="chewy border-orange-500 border m-3 px-3  bg-orange-300">HUMAN</button>
-            <button class="chewy border-orange-500 border m-3 px-3  bg-orange-300">SAYAIN</button>
-            <button class="chewy border-orange-500 border m-3 px-3  bg-orange-300">NAMEK</button>
-            <button class="chewy border-orange-500 border m-3 px-3 bg-orange-300">FRIEZA</button>
+            <button class=" oblic chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate">HUMAN</button>
+            <button class=" oblic chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate">SAYAIN</button>
+            <button class="oblic chewy border-orange-500 border m-3 px-3  bg-orange-300 block truncate">NAMEK</button>
+            <button class="oblic chewy border-orange-500 border m-3 px-3 bg-orange-300 block truncate">FRIEZA</button>
         <!-- </form> -->
        <!-- Button for breeds end -->
 
@@ -42,12 +42,55 @@
 
     <!-- How the use a download font style? chewy in the head before the css -->
 
-    <div class="">
-        <div id="human" class="flex justify-between ">
-            <div class="min-w-4 min-h-4 h-72 w-48 chewy"><h3 class="">KRILLIN</h3><img src="./img content-2/HD-wallpaper-krillin-cartoon-dragonball.jpeg" alt="Krillin" class=""></div>
-            <div class="min-w-4 min-h-4 h-72 w-48 chewy"><h3 class="">YAMCHA</h3><img src="./img content-2/yamcha-png.png" alt="Yamcha" class=""></div>
-            <div class="min-w-4 min-h-4 h-72 w-48 chewy"><h3 class="">ROSHI</h3><img src="./img content-2/roshi.webp" alt="Master Roshi" class=""></div>
+    <div class="w-xs flex-auto">
+        <div id="human" class="flex place-content-evenly perso ">
+            <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative oblic">
+                <h3 class="">KRILLIN</h3>
+                <img src="./img content-2/krillin.png" alt="Krillin" class="pics">
+                <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+            </div>
+                <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">YAMCHA</h3><img src="./img content-2/yamcha.png" alt="Yamcha" class="pics">
+                    <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+                </div>
+            <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative">
+                <h3 class="">ROSHI</h3><img src="./img content-2/roshi.png" alt="Master Roshi" class="pics">
+                <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+            </div>
       </div>
+      <div id="sayain" class="flex place-content-evenly  perso  ">
+        <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative">
+            <h3 class="">GOKU</h3><img src="./img content-2/goku.png" alt="Goku" class="pics">
+            <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">VEGETA</h3><img src="./img content-2/vegeta.png" alt="Vegeta" class="pics">
+            <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">BROLY</h3><img src="./img content-2/broly.png" alt="Broly" class="pics">
+            <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+        </div>
+  </div>
+  <div id="namek" class="flex place-content-evenly  perso  ">
+    <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">PICOLO</h3><img src="./img content-2/picolo.png" alt="Picolo" class="pics">
+        <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">SLUG</h3><img src="./img content-2/slug.png" alt="Slug" class="pics">
+        <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">DENDE</h3><img src="./img content-2/dende.png" alt="Dende" class="pics">
+        <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+    </div>
+</div>
+<div id="frieza" class="flex place-content-evenly  perso  ">
+    <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">FRIEZA</h3><img src="./img content-2/frieza.png" alt="Frieza" class="pics">
+        <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">COOLER</h3><img src="./img content-2/cooler.png" alt="Cooler" class="pics">
+        <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="min-w-4 min-h-4 min-w-48 chewy cad oblic relative"><h3 class="">FROST</h3><img src="./img content-2/frost.png" alt="Frost" class="pics">
+        <p class="comment oblic absolute bottom-0 left-0 right-0 z-10 p-2 hidden">Lorem ipsum dolor sit amet.</p>
+    </div>
+</div>
       </div>
     
 
