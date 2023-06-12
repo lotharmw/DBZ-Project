@@ -592,14 +592,14 @@ video {
   border-width: 1px;
 }
 
-.border-orange-500 {
+.border-orange-400 {
   --tw-border-opacity: 1;
-  border-color: rgb(249 115 22 / var(--tw-border-opacity));
+  border-color: rgb(251 146 60 / var(--tw-border-opacity));
 }
 
-.bg-orange-300 {
+.bg-orange-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -654,7 +654,7 @@ video {
 }
 
 .cad:before{
-  background-color: rgb(223, 190, 84);
+  background-color:rgb(194 65 12);
   border:1px orange solid;
 }
 
@@ -663,7 +663,7 @@ video {
 }
 
 .cad h3{
-  padding-left:10px;
+  padding-left:15px;
 }
 
 .oblic:before{
