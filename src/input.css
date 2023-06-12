@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Chewy";
+    src: url("../dist/Chewy/Chewy-Regular.ttf");
+}
+.chewy{
+    font-family: "Chewy";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
