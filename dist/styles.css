@@ -522,6 +522,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+
 .container {
   width: 100%;
 }
@@ -563,6 +564,7 @@ video {
 .relative {
   position: relative;
 }
+
 
 .-bottom-32 {
   bottom: -8rem;
@@ -644,6 +646,24 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.m-3 {
+  margin: 0.75rem;
 }
 
 .block {
@@ -657,6 +677,7 @@ video {
 .grid {
   display: grid;
 }
+
 
 .hidden {
   display: none;
@@ -728,6 +749,8 @@ video {
 
 .flex-row {
   flex-direction: row;
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .flex-col {
@@ -772,12 +795,27 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .border {
   border-width: 1px;
 }
-
 .border-2 {
   border-width: 2px;
 }
@@ -889,6 +927,18 @@ video {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+.border-orange-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 146 60 / var(--tw-border-opacity));
+}
+
+.bg-orange-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-2 {
@@ -907,11 +957,11 @@ video {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
+
 
 .px-6 {
   padding-left: 1.5rem;
@@ -1087,11 +1137,23 @@ video {
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
+.italic {
+  font-style: italic;
+}
+
+/* div{
+    border:1px orange solid; 
+   
+  } */
+
+/* font of breeds menu and character's names */
 
 @font-face {
   font-family: "Chewy";
 
+
   src: url("../dist/Chewy/Chewy-Regular.ttf");
+
 }
 
 .chewy{
@@ -1247,3 +1309,60 @@ video {
     line-height: 2rem;
   }
 }
+}
+
+.para{
+  max-width: 1000px;
+  max-height: 1600px;
+}
+
+.pics{
+  /* min-height: 100px; */
+  width:100%;
+  height:auto;
+  max-width: 200px;
+}
+
+.cad:hover .comment{
+  display: block !important;
+  transition: all 800ms;
+}
+
+.cad:before{
+  background-color:rgb(194 65 12);
+  border:1px orange solid;
+}
+
+.cad{
+  padding:30px;
+}
+
+.cad h3{
+  padding-left:15px;
+}
+
+.oblic:before{
+  content:'';
+  position:absolute;
+  margin-top:-30px;
+  margin-right:0px;
+  margin-left:-32px;
+  width:100%;
+  height:100%;
+  transform-origin:100% 100%;
+  transform:skewX(-5deg);
+  z-index:-1;
+}
+
+/* .comment:before{
+    background-color: rgb(248 250 252 );
+    margin-left:38px;
+
+} */
+
+@media not all and (min-width: 640px) {
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+}
+
