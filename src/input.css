@@ -40,7 +40,7 @@
 
  .cad:before{
   
-    background-color: rgb(223, 190, 84);
+    background-color:rgb(194 65 12);
 
   
     border:1px orange solid;
@@ -52,7 +52,7 @@
    
 }
 .cad h3{
-    padding-left:10px;
+    padding-left:15px;
 }
 .oblic:before{
     content:'';
