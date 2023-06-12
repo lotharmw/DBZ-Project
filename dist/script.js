@@ -18,7 +18,6 @@ function humans(){
     if (x.style.display === "grid"){
         welcome.style.display = "flex";
         x.style.display = "none";
-        removeColor();
     }
     else{
         disableAll();
