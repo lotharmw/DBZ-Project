@@ -12,11 +12,13 @@ function disableAll(){
     freezer.style.display = "none";
 }
 
+
 function humans(){
     let x = document.getElementById("humans");
     if (x.style.display === "grid"){
         welcome.style.display = "flex";
         x.style.display = "none";
+        removeColor();
     }
     else{
         disableAll();
@@ -41,7 +43,7 @@ function namekian(){
         x.style.display = "none";
     }
     else{
-        disableAll();
+        disableAll();;
         x.style.display ="grid";
     }
 }
