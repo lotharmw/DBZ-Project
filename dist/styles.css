@@ -522,25 +522,172 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.w-4 {
-  width: 1rem;
+.absolute {
+  position: absolute;
 }
 
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+.relative {
+  position: relative;
 }
 
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+.bottom-0 {
+  bottom: 0px;
 }
 
-.bg-red-500 {
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-orange-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 146 60 / var(--tw-border-opacity));
+}
+
+.bg-orange-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
 }
 
 .p-10 {
   padding: 2.5rem;
 }
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* div{
+    border:1px orange solid; 
+   
+  } */
+
+/* font of breeds menu and character's names */
+
+@font-face {
+  font-family: "Chewy";
+
+  src: url("./Chewy/Chewy-Regular.ttf");
+}
+
+.chewy{
+  font-family: "Chewy";
+}
+
+.para{
+  max-width: 1000px;
+  max-height: 1600px;
+}
+
+.pics{
+  /* min-height: 100px; */
+  width:100%;
+  height:auto;
+  max-width: 200px;
+}
+
+.cad:hover .comment{
+  display: block !important;
+  transition: all 800ms;
+}
+
+.cad:before{
+  background-color:rgb(194 65 12);
+  border:1px orange solid;
+}
+
+.cad{
+  padding:30px;
+}
+
+.cad h3{
+  padding-left:15px;
+}
+
+.oblic:before{
+  content:'';
+  position:absolute;
+  margin-top:-30px;
+  margin-right:0px;
+  margin-left:-32px;
+  width:100%;
+  height:100%;
+  transform-origin:100% 100%;
+  transform:skewX(-5deg);
+  z-index:-1;
+}
+
+/* .comment:before{
+    background-color: rgb(248 250 252 );
+    margin-left:38px;
+
+} */
+
+@media not all and (min-width: 640px) {
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+}
+
